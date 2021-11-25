@@ -1,28 +1,33 @@
 Project created to practice react js, next js, next auth (authenticator) and tailwind (library of CSS).
 
 ## ATTENTION ##
-- `Getting Started` -
 
-# First, you need to go to the website: [https://github.com/settings/apps] and create a new APP.
+`Getting Started`
+
+`First,` you need to go to the website: [https://github.com/settings/apps] and create a new APP.
+
 - New Github APP
 - Put the name
 - Homepage URL - is your website homepage (ex: [http://localhost:3000])
 - Callback URL is: [http://localhost:3000/api/auth/callback]
 - Unmark "Active" Webhook.
 - User permissions mark : "Profile"
-Now, you need to get these informations:
+Now, you need to get thisformations:
 [Client ID] (Starts with lv1.000000000)
 In Client Secrets, you generate a new client secret and copy de code
 
-# Second:
+`Second:`
 Creat a .env.local file in the project folder and put this:
 
 NEXTAUTH_URL= YOUR URL HOST (ex: http://localhost:3000)
+
 GITHUB_ID= CLIENT-ID (ex: lv1.000000000)
+
 GITHUB_SECRET= CLIENT SECRETS KEY
 
+
 Now, you are able to run the project.
-# In the terminal, you run the `npm i` and `npm run dev`, and be happy <3
+In the terminal, you run the `npm i` and `npm run dev`, and be happy <3
 
 # Made by: @rogerbatt
 
