@@ -1,6 +1,6 @@
 Project created to practice react js, next js, next auth (authenticator) and tailwind (library of CSS).
 
-<img src="https://media2.giphy.com/media/U907tgRcViQA2UYQhS/giphy.gif" width="700" height="300" />
+<img src="https://media2.giphy.com/media/U907tgRcViQA2UYQhS/giphy.gif" width="700" />
 
 ## ATTENTION ##
 
