@@ -12,7 +12,7 @@ export default function Card() {
     return (
     <div>
       <Head>
-        <title>GitCard - {user.name}</title>
+        <title>GitCard - {user?.name}</title>
         <link rel="icon" href="/github.ico" />
       </Head>
 
@@ -26,10 +26,10 @@ export default function Card() {
         <div className="rounded-2xl p-8 pl-20 pr-20 bg-gray-900 bg-opacity-80 transition delay-200 duration-700 hover:bg-opacity-90"> 
         
           <div className="font-bold text-gray-300 flex items-center justify-center">
-            <img src={user.image} className="w-44 rounded-full shadow-2xl mr-20"/>
+            <img src={user?.image} className="w-44 rounded-full shadow-2xl mr-20"/>
             <div>
-              <p className="text-2xl">{user.name}</p>
-              <p className="italic">{user.email}</p>
+              <p className="text-2xl">{user?.name}</p>
+              <p className="italic">{user?.email}</p>
             </div>
           </div>
         </div>
